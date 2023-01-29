@@ -14,14 +14,15 @@
 ### For the Linux operating system:
 - Requirement: **ncurses** package
 - Installation:
-    * On Ubuntu/Debian
-  ```
-  sudo apt-get install libncurses5-dev libncursesw5-dev
-  ```
     * On Arch linux
   ```
   sudo pacman -S ncurses
   ```
+    * On Ubuntu/Debian 
+  ```
+  sudo apt-get install libncurses5-dev libncursesw5-dev
+  ```
+
 - To compile and run:
 ```
 cd src
