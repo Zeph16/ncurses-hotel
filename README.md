@@ -23,7 +23,8 @@
   ```
 - To compile and run:
 ```
-g++ src/*.cpp -o hotel -lncurses
+cd src
+g++ *.cpp -o hotel -lncurses
 ./hotel
 ```
 
@@ -119,6 +120,6 @@ DSdemo can be used as a singly linked list, a doubly linked list, a stack, a que
 
 
 
-## This project is also a very good demo of the ncurses library for making console applications so I highly recommend you try it out, either to see what it's capable of or to tinker around and make improvements
+### This project is a very good demo of a highly minimal use case of the ncurses library for making console applications since it's capable of much more than this so I highly recommend you try it out, either to see what it's capable of even at this scale of usage or to tinker around and make improvements.
 
-## Any recommendations for fixing the segmentation faults would be very appreciated (commented in the code)
+### Any recommendations for fixing the segmentation faults would be very appreciated (commented in the code)
