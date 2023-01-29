@@ -8,11 +8,12 @@
 
 ## Usage
 
-### Currently the program only functions as expected on a linux operating system. It can be compiled on Windows but it has numerous unexpected behaviours so I've decided to not include compilation instructions and necessary libraries for the OS. You have to link the **PDCurses** library to compile the program on windows.
+- **Currently the program only functions as expected on a linux operating system. It can be compiled on Windows but it has numerous unexpected behaviours so I've decided to not include compilation instructions and necessary libraries for the OS.**
+- **In short, you have to link the *PDCurses* library and change the include header fine to include curses instead of ncurses to compile the program on Windows. But unless you simply want to see it break down and tinker around I suggest you avoid this since it does not behave as expected at all.**
 
 ### For the Linux operating system:
 - Requirement: **ncurses** package
-    * Installation:
+- Installation:
     * On Ubuntu/Debian
   ```
   sudo apt-get install libncurses5-dev libncursesw5-dev
